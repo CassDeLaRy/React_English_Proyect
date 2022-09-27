@@ -1,6 +1,5 @@
 import '../assets/style/body.css'
 import background from '../assets/img/background.jpg'
-import cards from '../assets/img/fondoCards.jpg'
 
 function Body() {
     return ( 
