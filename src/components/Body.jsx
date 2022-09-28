@@ -47,7 +47,7 @@ function Body() {
         <>
         <img id="logoBody" src={background}></img>
         <h1 id="tituloHome">ENGLISH: TOPICS</h1>
-        <div className='Box-Drama'>
+        <div className='Box-Topic'>
             {topics.map((topic) => {
                 return (
                     <Card
