@@ -7,9 +7,9 @@ function Footer() {
     return (
         <footer>
             <div className='footer_img'>
-                <a href="https://www.facebook.com/"><img src={logoFacebook} alt="Logo Facebook"/></a>
-                <a href="https://twitter.com/?lang=es"><img src={logoTwitter} alt="Logo Twitter" /></a>
-                <a href="https://www.youtube.com/"><img src={logoYoutube} alt="Logo Youtube" /></a>
+                <a id="footer" href="https://www.facebook.com/"><img src={logoFacebook} alt="Logo Facebook"/></a>
+                <a id="footer" href="https://twitter.com/?lang=es"><img src={logoTwitter} alt="Logo Twitter" /></a>
+                <a id="footer" href="https://www.youtube.com/"><img src={logoYoutube} alt="Logo Youtube" /></a>
             </div>
         </footer>
             );
